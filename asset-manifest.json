@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/shugaring-site/static/css/main.9bdec16b.chunk.css",
+    "main.js": "/shugaring-site/static/js/main.3b705f59.chunk.js",
+    "main.js.map": "/shugaring-site/static/js/main.3b705f59.chunk.js.map",
+    "runtime-main.js": "/shugaring-site/static/js/runtime-main.6313d823.js",
+    "runtime-main.js.map": "/shugaring-site/static/js/runtime-main.6313d823.js.map",
+    "static/css/2.efe02901.chunk.css": "/shugaring-site/static/css/2.efe02901.chunk.css",
+    "static/js/2.58043df6.chunk.js": "/shugaring-site/static/js/2.58043df6.chunk.js",
+    "static/js/2.58043df6.chunk.js.map": "/shugaring-site/static/js/2.58043df6.chunk.js.map",
+    "index.html": "/shugaring-site/index.html",
+    "static/css/2.efe02901.chunk.css.map": "/shugaring-site/static/css/2.efe02901.chunk.css.map",
+    "static/css/main.9bdec16b.chunk.css.map": "/shugaring-site/static/css/main.9bdec16b.chunk.css.map",
+    "static/js/2.58043df6.chunk.js.LICENSE.txt": "/shugaring-site/static/js/2.58043df6.chunk.js.LICENSE.txt",
+    "static/media/about.5aec6972.jpg": "/shugaring-site/static/media/about.5aec6972.jpg",
+    "static/media/font-awesome.min.css": "/shugaring-site/static/media/fontawesome-webfont.f691f37e.woff",
+    "static/media/index.css": "/shugaring-site/static/media/header.8e9a9c34.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6313d823.js",
+    "static/css/2.efe02901.chunk.css",
+    "static/js/2.58043df6.chunk.js",
+    "static/css/main.9bdec16b.chunk.css",
+    "static/js/main.3b705f59.chunk.js"
+  ]
+}
