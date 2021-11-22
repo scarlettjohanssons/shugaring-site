@@ -11,7 +11,7 @@ const Ul = styled.ul`
   @media (max-width:995px) {
     display: flex;
     flex-flow: column nowrap;
-    background-color: #fe601a;
+    background-color: #FA8072;
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
     position: fixed;
     transform: ${({ open }) => open ? 'translateX(0)' : 'translateX(100%)'};

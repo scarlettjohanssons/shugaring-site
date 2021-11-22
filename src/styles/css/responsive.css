@@ -149,7 +149,7 @@
 }
 
 /* Max Size: 320px. */
-@media screen and (max-width: 991px) {
+@media screen and (max-width: 995px) {
     .logo a img {
         max-width: 127px;
     }

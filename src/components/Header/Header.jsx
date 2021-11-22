@@ -8,8 +8,9 @@ const Header = () => {
         <div className="slider-content d-flex flex-center">
           <div className="col-md-8 col-sm-9 col-xs-12 d-flex flex-center">
             <div className="slider-nner">
-              <h2>Perfect Landing Page <br />Best For Your App</h2>
-              <p>The Best Template For Your Mobile App To Showcase And Acquire New Customers All Around The World.The Best Template That You Can Find Anywhere!</p>
+              <h1>СТУДИЯ</h1>
+              <h2>Шугаринг и <br />восковая <br />эпиляция</h2>
+              <h1>Лучшее время-это время для себя</h1>
             </div>
           </div>
           <div className="col-md-4 hidden-sm hidden-xs">

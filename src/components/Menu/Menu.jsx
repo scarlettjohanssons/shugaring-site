@@ -19,7 +19,7 @@ const Menu = () => {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
   return (
-    <header class={`header-area ${scroll > 200 && 'header_fix'}`}>
+    <header class='header-area header_fix'>
       <div class="container">
         <div class="row">
           <div class="menu-area">
@@ -63,7 +63,7 @@ const Menu = () => {
                 </nav>
               </div>
             </div>
-              <Navbar />
+            <Navbar />
             <div class="col-sm-12 col-xs-12 visible-sm visible-xs">
               {/* <HamburgerButton
                 open={isOpenMenu}

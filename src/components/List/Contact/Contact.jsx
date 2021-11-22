@@ -1,6 +1,8 @@
 import React from 'react';
+import googlePlaces from 'google-maps-reviews';
 
 const Contact = () => {
+  console.log(googlePlaces);
   return (
     <section class="ptb--120" id="contact">
       <div class="section-title text-black">
@@ -25,6 +27,9 @@ const Contact = () => {
           >
           </iframe>
         </div>
+        <googlePlaces
+          placeId='ChIJCUodhCbM1EARfMAuo4dx0Dk'
+        />
         {/* <div class="contact-form">
           <h4 class="contact-title">Get In Touch</h4>
           <form action="#">
