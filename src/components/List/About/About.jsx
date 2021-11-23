@@ -1,10 +1,14 @@
 import React from 'react';
 import Image1 from '../../../styles/images/face.jpg';
+import Title from '../../Title/Title';
 
 const About = () => {
   return (
-    <section class="about-area ptb--110" id="about">
+    <section class="about-area ptb--70 bg-theme" id="about">
       <div class="container">
+        <div class="section-title">
+          <Title titleName='About' />
+        </div>
         <div class="about-content">
           <p>
             Иметь гладкую шелковистую кожу – это неотъемлимое желание любой предоставительницы слабого пола.

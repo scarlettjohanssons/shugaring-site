@@ -1,13 +1,15 @@
 import React from 'react';
+import Title from '../../Title/Title';
 
 const Pricing = () => {
   return (
-    <section class="pricing-area ptb--120 bg-theme" id="pricing">
+    <section class="pricing-area ptb--70 bg-theme" id="pricing">
       {/* bg-theme */}
       <div class="container">
         <div class="section-title">
-          <h2>Pricing Plan</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do</p>
+          <Title titleName='Pricing Plan' />
+          {/* <h2>Pricing Plan</h2> */}
+          {/* <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do</p> */}
         </div>
         <div class="pricing-list">
           <div class="row pricing-list">

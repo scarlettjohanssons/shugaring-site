@@ -1,21 +1,34 @@
 import React from 'react';
 import googlePlaces from 'google-maps-reviews';
+import { Icon } from '@iconify/react';
+import Title from '../../Title/Title';
 
 const Contact = () => {
-  console.log(googlePlaces);
   return (
-    <section class="ptb--120" id="contact">
+    <section class="ptb--70" id="contact">
       <div class="section-title text-black">
-        <h2>Contact US</h2>
+        <Title titleName='Contact US' />
+        {/* <h2>Contact US</h2> */}
       </div>
       <div class="contact-flex-container">
         <div class="contact-address">
           <h4 class="contact-title">Address</h4>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et </p>
           <ul>
-            <li class="h-addres"><i class="fa fa-home"></i><a href='https://goo.gl/maps/ZXwZms5ZQYMrTNwL8' target="_blank">Киев, ул. Металлистов 9</a></li>
-            <li><i class="fa fa-phone"></i><a href="tel:+380973909127">+38 097 390 9127</a></li>
-            <li><i class="fa fa-envelope"></i><a href='mailto:marulik1311@gmail.com'>marulik1311@gmail.com</a></li>
+            <li class="h-addres">
+              <i class="addres-icon fa fa-home"></i>
+              <a href='https://goo.gl/maps/ZXwZms5ZQYMrTNwL8' target="_blank">Киев, ул. Металлистов 9</a>
+            </li>
+            <li>
+              <i class="addres-icon fa fa-phone"></i>
+              <a href="tel:+380973909127">+38 097 390 9127</a>
+              <a style={{ 'marginLeft': '10px' }} href="https://t.me/KatrinKukobko" target="_blank"><i class="fa fa-telegram"></i></a>
+              <a style={{ 'marginLeft': '10px' }} href="https://t.me/KatrinKukobko" target="_blank"><Icon icon="fa-brands:viber" /></a>
+            </li>
+            <li>
+              <i class="addres-icon fa fa-envelope"></i>
+              <a href='mailto:marulik1311@gmail.com'>marulik1311@gmail.com</a>
+            </li>
           </ul>
         </div>
         <div class="contact-map" style={{ 'padding': '0px' }}>
@@ -27,9 +40,6 @@ const Contact = () => {
           >
           </iframe>
         </div>
-        <googlePlaces
-          placeId='ChIJCUodhCbM1EARfMAuo4dx0Dk'
-        />
         {/* <div class="contact-form">
           <h4 class="contact-title">Get In Touch</h4>
           <form action="#">
