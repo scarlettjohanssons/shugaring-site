@@ -4,7 +4,7 @@ import Title from '../../Title/Title';
 
 const About = () => {
   return (
-    <section class="about-area ptb--70 bg-theme" id="about">
+    <section class="about-area ptb--70" id="about">
       <div class="container">
         <div class="section-title">
           <Title titleName='About' />

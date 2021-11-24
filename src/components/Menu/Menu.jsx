@@ -49,6 +49,12 @@ const Menu = () => {
                     </li>
                     <li
                       onClick={(e) => setIsChoosenMenu(e.target.name)}
+                      class={`${isChoosenMenu === 'questions' ? 'active' : ''}`}
+                    >
+                      <a name='questions' href="#questions">Questions</a>
+                    </li>
+                    <li
+                      onClick={(e) => setIsChoosenMenu(e.target.name)}
                       class={`${isChoosenMenu === 'price' ? 'active' : ''}`}
                     >
                       <a name='price' href="#pricing">Price</a>

@@ -32,6 +32,7 @@ const RightNav = ({ open, setOpen }) => {
     <Ul open={open}>
       <li><a onClick={() => setOpen(false)} href="#home">Home</a></li>
       <li><a onClick={() => setOpen(false)} href="#about">About</a></li>
+      <li><a onClick={() => setOpen(false)} href="#questions">Questions</a></li>
       <li><a onClick={() => setOpen(false)} href="#pricing">Price</a></li>
       <li><a onClick={() => setOpen(false)} href="#contact">Contact</a></li>
     </Ul>

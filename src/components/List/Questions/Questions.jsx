@@ -1,7 +1,19 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Title from '../../Title/Title';
+import Image1 from '../../../styles/images/foot.jpg';
+import Image2 from '../../../styles/images/hands.jpg';
+import Image7 from '../../../styles/images/pregnance.jpg';
+import Image8 from '../../../styles/images/teen.jpg';
+import Image3 from '../../../styles/images/photo3.svg';
+import Image4 from '../../../styles/images/photo2.svg';
+import Image5 from '../../../styles/images/photo1.svg';
+import Image6 from '../../../styles/images/photo5.svg';
+import { questionsText } from '../../../helper/questionsTextConfig';
 
 const Questions = () => {
+
+  const [whatIsOpen, setWhatIsOpen] = useState('');
+
   return (
     <section class="letest-blog ptb--70" id="questions">
       <div class="container">
@@ -10,82 +22,116 @@ const Questions = () => {
           {/* <h2>Questions</h2> */}
         </div>
         <div class="row">
-          <div class="row blog-list">
-            <div class="col-md-4 col-sm-6 col-xs-12">
-              <div class="list-item">
-                <div class="blog-thumbnail">
-                  {/* <a href="blog-details.html"><img src="assets/img/blog/blog-thumb1.jpg" alt="blog thumbnail" /></a> */}
+          <div class="blog-list">
+
+            <div className='blog-list__item'>
+              <div className='list__item questions_content'>
+                <img className='questions_img' src={Image5} alt="image description" />
+              </div>
+
+              <div class="list__item list__item--hidden"></div>
+
+              <div class="list__item">
+                <div class="list-item">
+                  <div class="blog-thumbnail">
+                    <img src={Image1} alt="blog thumbnail" />
+                  </div>
+                  <h4 class="blog-title">{questionsText.text1.title}</h4>
+                  <a
+                    class="read-more"
+                    name='text1'
+                    onClick={(e) => setWhatIsOpen(e.target.name)}
+                  >
+                    Read More
+                  </a>
+                  <div class="blog-summery">
+                    <p className={`${whatIsOpen !== 'text1' ? 'hidden' : ''}`}>{questionsText.text1.body}</p>
+                  </div>
                 </div>
-                <h4 class="blog-title">Как подготовиться к эпиляции</h4>
-                <div class="blog-summery">
-                  <p>
-                    Очень часто девочки переживают перед эпиляцией, а особенно если в первый раз.
-                    «Как же я лягу?», «А вдруг у меня там что-то не так?», «А что она обо мне подумает?».
-                    Поверьте, мастера интересуют только ваши волосы. Расслабьтесь и отбросьте все лишние
-                    мысли. Я видела все и много раз. И все-таки, как мы готовимся к процедуре?
-                  </p>
-                </div>
-                <a class="read-more">Read More</a>
               </div>
             </div>
-            <div class="col-md-4 col-sm-6 col-xs-12">
-              <div class="list-item">
-                <div class="blog-thumbnail">
-                  {/* <a href="blog-details.html"><img src="assets/img/blog/blog-thumb2.jpg" alt="blog thumbnail" /></a> */}
+
+            <div className='blog-list__item'>
+              <div class="list__item">
+                <div class="list-item">
+                  <div class="blog-thumbnail">
+                    <img src={Image8} alt="blog thumbnail" />
+                  </div>
+                  <h4 class="blog-title">{questionsText.text2.title}</h4>
+                  <a
+                    class="read-more"
+                    name='text2'
+                    onClick={(e) => setWhatIsOpen(e.target.name)}
+                  >
+                    Read More
+                  </a>
+                  <div class="blog-summery">
+                    <p className={`${whatIsOpen !== 'text2' ? 'hidden' : ''}`}>{questionsText.text2.body}</p>
+                  </div>
                 </div>
-                <h4 class="blog-title">Можно ли делать эпиляцию детям, подросткам?</h4>
-                <div class="blog-summery">
-                  <p>
-                    Давайте вспомним, что такое шугаринг. Шугаринг – это самый щадящий
-                    вид эпиляции (удаляет волос с корнем). Выполняется проффесиональной
-                    сахарной пастой, убирая волосы ПО росту, что практически исключает
-                    травматизацию кожи.
-                  </p>
-                </div>
-                <a class="read-more">Read More</a>
+              </div>
+
+              <div class="list__item list__item--hidden-right"></div>
+
+              <div className='list__item questions_content questions_content--right'>
+                <img className='questions_img' src={Image4} alt="image description" />
               </div>
             </div>
-            <div class="col-md-4 col-sm-6 col-xs-12">
-              <div class="list-item">
-                <div class="blog-thumbnail">
-                  {/* <a href="blog-details.html"><img src="assets/img/blog/blog-thumb3.jpg" alt="blog thumbnail" /></a> */}
+
+            <div className='blog-list__item'>
+              <div className='list__item questions_content'>
+                <img className='questions_img' src={Image3} alt="image description" />
+              </div>
+
+              <div class="list__item list__item--hidden"></div>
+
+              <div class="list__item ">
+                <div class="list-item">
+                  <div class="blog-thumbnail">
+                    <img src={Image7} alt="blog thumbnail" />
+                  </div>
+                  <h4 class="blog-title">{questionsText.text3.title}</h4>
+                  <a
+                    class="read-more"
+                    name='text3'
+                    onClick={(e) => setWhatIsOpen(e.target.name)}
+                  >
+                    Read More
+                  </a>
+                  <div class="blog-summery">
+                    <p className={`${whatIsOpen !== 'text3' ? 'hidden' : ''}`}>{questionsText.text3.body}</p>
+                  </div>
                 </div>
-                <h4 class="blog-title">Шугаринг беременным</h4>
-                <div class="blog-summery">
-                  <p>
-                    Беременность – это не болезнь и это не имеет противопоказаний
-                    к проведению эпиляции. НО! Нужно воздержаться от процедуры в
-                    первый триместр. Это связано с тем, что именно в этот период
-                    формируется сердечно – сосудистая система плода. В это время
-                    закрепляется все процессы и организм женщины несет большую
-                    нагрузку. Поэтому, если не обязательно – лучше не делать.
-                  </p>
-                </div>
-                <a href="blog.html" class="read-more">Read More</a>
               </div>
             </div>
-            <div class="col-md-4 col-sm-6 col-xs-12">
-              <div class="list-item">
-                <div class="blog-thumbnail">
-                  {/* <a href="blog-details.html"><img src="assets/img/blog/blog-thumb3.jpg" alt="blog thumbnail" /></a> */}
+
+            <div className='blog-list__item'>
+              <div class="list__item">
+                <div class="list-item">
+                  <div class="blog-thumbnail">
+                    <img src={Image2} alt="blog thumbnail" />
+                  </div>
+                  <h4 class="blog-title">{questionsText.text4.title}</h4>
+                  <a
+                    class="read-more"
+                    name='text4'
+                    onClick={(e) => setWhatIsOpen(e.target.name)}
+                  >
+                    Read More
+                  </a>
+                  <div class="blog-summery">
+                    <p className={`${whatIsOpen !== 'text4' ? 'hidden' : ''}`}>{questionsText.text4.body}</p>
+                  </div>
                 </div>
-                <h4 class="blog-title">Вросшие волосы</h4>
-                <div class="blog-summery">
-                  <p>
-                    К сожалению мы очень часто сталкиваемся с таким понятием
-                    как вросшие волосы. Причины, которые могут вызвать такие
-                    неприятные последствия могут быть разные. Это бритье,
-                    неправильный уход за кожей или попросту его отсутствие,
-                    некачественно сделанная процедура эпиляции (не придерживаясь
-                    протокола процедуры). Но и с этой проблемой можно справиться,
-                    если правильно определить ее причину и начать с ней работать.
-                    И очень скоро кожа снова будет радовать вас своей гладкостью,
-                    чистотой и красотой.
-                  </p>
-                </div>
-                <a href="blog.html" class="read-more">Read More</a>
+              </div>
+
+              <div class="list__item list__item--hidden-right"></div>
+
+              <div className='list__item questions_content questions_content--right'>
+                <img className='questions_img' src={Image6} alt="image description" />
               </div>
             </div>
+
           </div>
         </div>
       </div>

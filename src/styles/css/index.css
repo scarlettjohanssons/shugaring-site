@@ -4,6 +4,14 @@
     font-style: normal;
     font-weight: normal;
 }
+
+.disabled {
+    display: none;
+}
+
+.hidden {
+    visibility: hidden;
+}
 /*-----------------------------------------------------------------------------------
 
     Template Name: Appson
@@ -160,7 +168,21 @@ font-family: 'Open Sans', sans-serif;
   ===========================*/
 
 .title-container {
-    text-align: center;
+    /* margin: 1em 0 0.5em 0; */
+    width: 450px;
+	font-weight: 600;
+	font-family: 'Titillium Web', sans-serif;
+	position: relative;  
+	font-size: 36px;
+	line-height: 40px;
+	/* padding: 15px 15px 15px 15%; */
+	color: #355681;
+	box-shadow: 
+		inset 0 0 0 1px rgba(53,86,129, 0.4), 
+		inset 0 0 5px rgba(53,86,129, 0.5),
+		inset -285px 0 35px white;
+	border-radius: 0 10px 0 10px;
+    background: no-repeat url(../images/eyes2.jpg), linear-gradient(to right, #fff, #fff) center left;
 }
 
 .title-container__name {
@@ -487,7 +509,10 @@ font-family: 'Open Sans', sans-serif;
     }
 }
 
-.about-left-thumb {}
+.about-left-thumb {
+    display: flex;
+    justify-content: center;
+}
 
 .about-left-thumb img {
     height: 550px;
@@ -512,7 +537,7 @@ font-family: 'Open Sans', sans-serif;
 }
 
 .about-content p {
-    color: #fff;
+    color: #696969;
     font-weight: 500;
 }
 
@@ -557,6 +582,8 @@ font-family: 'Open Sans', sans-serif;
   ===========================*/
 
 .section-title {
+    display: flex;
+    justify-content: center;
     margin-bottom: 50px;
     text-align: center;
 }
@@ -723,6 +750,34 @@ font-family: 'Open Sans', sans-serif;
     vertical-align: middle;
 }
 
+.questions_content {
+    /* display: flex; */
+    /* flex: 0 0 auto!important; */
+    align-self: center;
+    width: 50%!important;
+}
+
+.questions_img {
+    padding: 40px 20px;
+    border: 10px solid #FA8072;
+    fill: #fff;
+}
+
+.questions_content--right {
+    align-items: end;
+}
+
+@media (max-width:767px) {
+    .questions_content {
+        display: none;
+    }
+}
+
+svg {
+    width: 50%;
+    height: 50%;
+}
+
 /*===========================
 END. Download Area
 ===========================*/
@@ -730,6 +785,83 @@ END. Download Area
 /*===========================
 2.7 Pricing Area
 ===========================*/
+
+.responsive-table li {
+    border-radius: 3px;
+    padding: 25px 30px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+.responsive-table .table-header {
+    background-color: #FA8072;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+}
+.responsive-table .table-row {
+    background-color: #ffffff;
+    box-shadow: 0px 0px 9px 0px rgba(0,0,0,0.1);
+}
+.responsive-table .col-1 {
+    flex-basis: 10%;
+}
+.responsive-table .col-2 {
+    flex-basis: 40%;
+}
+.responsive-table .col-3 {
+    flex-basis: 25%;
+}
+.responsive-table .col-4 {
+    flex-basis: 25%;
+}
+
+@media all and (max-width: 767px) {
+    .responsive-table .table-header {
+        display: none;
+    }
+    .table-row{}
+    .responsive-table li {
+        display: block;
+    }
+    .responsive-table .col {
+        flex-basis: 100%;
+    }
+    .responsive-table .col {
+        display: flex;
+        padding: 10px 0;
+    }
+    .responsive-table .col:before {
+        color: #6C7A89;
+        padding-right: 10px;
+        content: attr(data-label);
+        flex-basis: 50%;
+        text-align: right;
+        }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .pricing-area {}
 
@@ -1063,6 +1195,39 @@ END Testimonial Area
 
 .blog-list {}
 
+.blog-list__item {
+    display: flex;
+    justify-content: space-between;
+}
+
+.list__item {
+    flex:1 1 auto;
+    width:100%;
+}
+
+.list__item--hidden {
+    height: 10px;
+    align-self: center;
+    background: linear-gradient(to right, #FA8072, rgba(0, 0, 0, 0.1));;
+    /* display: flex; */
+    /* align-items: center; */
+}
+
+.list__item--hidden-right {
+    height: 10px;
+    align-self: center;
+    background: linear-gradient(to left, #FA8072, rgba(0, 0, 0, 0.1));;
+}
+
+@media (max-width:767px) {
+    .list__item--hidden {
+        display: none;
+    }
+    .list__item--hidden-right {
+        display: none;
+    }
+}
+
 .list-item {
     box-shadow: 0px 5px 30px 0px rgba(0, 0, 0, 0.1);
     padding: 15px 15px 26px;
@@ -1127,6 +1292,8 @@ END Testimonial Area
     line-height: 40px;
     color: #fff;
     letter-spacing: 0.01em;
+    text-decoration: none;
+    cursor: pointer;
 }
 
 .list-item a.read-more:hover {

@@ -3,15 +3,13 @@ import Title from '../../Title/Title';
 
 const Pricing = () => {
   return (
-    <section class="pricing-area ptb--70 bg-theme" id="pricing">
+    <section class="pricing-area ptb--70" id="pricing">
       {/* bg-theme */}
       <div class="container">
         <div class="section-title">
           <Title titleName='Pricing Plan' />
-          {/* <h2>Pricing Plan</h2> */}
-          {/* <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do</p> */}
         </div>
-        <div class="pricing-list">
+        {/* <div class="pricing-list">
           <div class="row pricing-list">
             <div class="col-md-4 col-xs-12">
               <div class="pricing-item text-center">
@@ -62,7 +60,29 @@ const Pricing = () => {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
+        <ul class="responsive-table">
+          <li class="table-header">
+            <div class="col col-2">Customer Name</div>
+            <div class="col col-3">Amount Due</div>
+          </li>
+          <li class="table-row">
+            <div class="col col-2" data-label="Customer Name">John Doe</div>
+            <div class="col col-3" data-label="Amount">$350</div>
+          </li>
+          <li class="table-row">
+            <div class="col col-2" data-label="Customer Name">Jennifer Smith</div>
+            <div class="col col-3" data-label="Amount">$220</div>
+          </li>
+          <li class="table-row">
+            <div class="col col-2" data-label="Customer Name">John Smith</div>
+            <div class="col col-3" data-label="Amount">$341</div>
+          </li>
+          <li class="table-row">
+            <div class="col col-2" data-label="Customer Name">John Carpenter</div>
+            <div class="col col-3" data-label="Amount">$115</div>
+          </li>
+        </ul>
       </div>
     </section>
   );
