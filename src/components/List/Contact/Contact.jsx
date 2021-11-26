@@ -13,7 +13,7 @@ const Contact = () => {
       <div class="contact-flex-container">
         <div class="contact-address">
           <h4 class="contact-title">Address</h4>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et </p>
+          {/* <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et </p> */}
           <ul>
             <li class="h-addres">
               <i class="addres-icon fa fa-home"></i>
@@ -23,7 +23,7 @@ const Contact = () => {
               <i class="addres-icon fa fa-phone"></i>
               <a href="tel:+380973909127">+38 097 390 9127</a>
               <a style={{ 'marginLeft': '10px' }} href="https://t.me/KatrinKukobko" target="_blank"><i class="fa fa-telegram"></i></a>
-              <a style={{ 'marginLeft': '10px' }} href="https://t.me/KatrinKukobko" target="_blank"><Icon icon="fa-brands:viber" /></a>
+              {/* <a style={{ 'marginLeft': '10px' }} href="https://t.me/KatrinKukobko" target="_blank"><Icon icon="fa-brands:viber" /></a> */}
             </li>
             <li>
               <i class="addres-icon fa fa-envelope"></i>

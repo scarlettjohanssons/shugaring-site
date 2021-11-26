@@ -767,8 +767,15 @@ font-family: 'Open Sans', sans-serif;
     align-items: end;
 }
 
+.questions_hidden {
+    visibility: hidden;
+}
+
 @media (max-width:767px) {
     .questions_content {
+        display: none;
+    }
+    .questions_hidden {
         display: none;
     }
 }
@@ -786,6 +793,9 @@ END. Download Area
 2.7 Pricing Area
 ===========================*/
 
+.responsive-table {
+    padding: 0;
+}
 .responsive-table li {
     border-radius: 3px;
     padding: 25px 30px;
@@ -794,14 +804,30 @@ END. Download Area
     margin-bottom: 25px;
 }
 .responsive-table .table-header {
+    position: relative;
     background-color: #FA8072;
-    font-size: 14px;
+    font-size: 20px;
     text-transform: uppercase;
     letter-spacing: 0.03em;
 }
+.table-open {
+    position: absolute;
+    right: 25px;
+}
+.table-open_btn {
+    color: #000;
+    text-decoration: none;
+}
+.responsive-table .table-header .col-1 {
+    display: none;
+}
 .responsive-table .table-row {
+    font-size: 19px;
     background-color: #ffffff;
     box-shadow: 0px 0px 9px 0px rgba(0,0,0,0.1);
+}
+.responsive-table .col-0 {
+    flex-basis: 5%;
 }
 .responsive-table .col-1 {
     flex-basis: 10%;
@@ -815,29 +841,64 @@ END. Download Area
 .responsive-table .col-4 {
     flex-basis: 25%;
 }
+.mobile-title {
+    display: none;
+}
 
 @media all and (max-width: 767px) {
+    .mobile-title {
+        width: 65px;
+        height: 50px;
+        margin-right: 10px;
+        display: inline-block;
+    }
+    .responsive-table .table-row {
+        font-size: 14px;
+    }
     .responsive-table .table-header {
+        padding: 15px 20px;
+    }
+    .table-open {
+        position: absolute;
+        right: 20px;
+        top: 20px;
+    }
+    .table-open_btn {
+        color: #000;
+        text-decoration: none;
+    }
+    .responsive-table .table-header .col-1 {
+        display: flex;
+    }
+    .responsive-table .table-header .col-2 {
         display: none;
+    }
+    .responsive-table .table-header .col-3 {
+        display: none;
+    }
+    .responsive-table .table-row {
+        display: flex;
+        flex-direction: column;
     }
     .table-row{}
     .responsive-table li {
         display: block;
     }
     .responsive-table .col {
+        width: 100%;
         flex-basis: 100%;
     }
     .responsive-table .col {
         display: flex;
         padding: 10px 0;
     }
-    .responsive-table .col:before {
+    /* .responsive-table .col:before {
         color: #6C7A89;
         padding-right: 10px;
         content: attr(data-label);
         flex-basis: 50%;
         text-align: right;
-        }
+        } */
 }
 
 

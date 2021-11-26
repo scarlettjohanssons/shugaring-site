@@ -45,7 +45,7 @@ const Questions = () => {
                     Read More
                   </a>
                   <div class="blog-summery">
-                    <p className={`${whatIsOpen !== 'text1' ? 'hidden' : ''}`}>{questionsText.text1.body}</p>
+                    <p className={`${whatIsOpen !== 'text1' ? 'questions_hidden' : ''}`}>{questionsText.text1.body}</p>
                   </div>
                 </div>
               </div>
@@ -66,7 +66,7 @@ const Questions = () => {
                     Read More
                   </a>
                   <div class="blog-summery">
-                    <p className={`${whatIsOpen !== 'text2' ? 'hidden' : ''}`}>{questionsText.text2.body}</p>
+                    <p className={`${whatIsOpen !== 'text2' ? 'questions_hidden' : ''}`}>{questionsText.text2.body}</p>
                   </div>
                 </div>
               </div>
@@ -99,7 +99,7 @@ const Questions = () => {
                     Read More
                   </a>
                   <div class="blog-summery">
-                    <p className={`${whatIsOpen !== 'text3' ? 'hidden' : ''}`}>{questionsText.text3.body}</p>
+                    <p className={`${whatIsOpen !== 'text3' ? 'questions_hidden' : ''}`}>{questionsText.text3.body}</p>
                   </div>
                 </div>
               </div>
@@ -120,7 +120,7 @@ const Questions = () => {
                     Read More
                   </a>
                   <div class="blog-summery">
-                    <p className={`${whatIsOpen !== 'text4' ? 'hidden' : ''}`}>{questionsText.text4.body}</p>
+                    <p className={`${whatIsOpen !== 'text4' ? 'questions_hidden' : ''}`}>{questionsText.text4.body}</p>
                   </div>
                 </div>
               </div>
