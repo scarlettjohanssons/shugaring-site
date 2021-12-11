@@ -81,6 +81,8 @@ p {
   letter-spacing: 0;
   line-height: 28px;
   margin: 0;
+  text-indent: 1.5em;
+  text-align: justify;
 }
 
 p img {
@@ -315,7 +317,7 @@ div#preloader {
   position: fixed;
   top: 0;
   width: 100%;
-  z-index: 999;
+  z-index: 9999;
   display: flex;
   background: #fff;
 }

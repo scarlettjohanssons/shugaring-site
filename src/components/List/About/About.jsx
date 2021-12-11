@@ -1,13 +1,14 @@
 import React from 'react';
 import Image1 from '../../../styles/images/face.jpg';
 import Title from '../../Title/Title';
+import { aboutList } from '../../../helper/questionsTextConfig';
 
 const About = () => {
   return (
-    <section class="about-area ptb--70" id="about">
+    <section class="about-area ptb--10" id="about">
       <div class="container">
         <div class="section-title">
-          <Title titleName='About' />
+          {/* <Title titleName='About' /> */}
         </div>
         <div class="about-content">
           <p>
@@ -37,7 +38,7 @@ const About = () => {
           </div>
           <div class="about_content col-md-offset-1 col-sm-12 col-xs-12">
             <div class="about-content">
-              <span>Тогда давайте знакомиться</span>
+              <h4 className='about-content__title'>Тогда давайте знакомиться</h4>
               <p>
                 Меня зовут Екатерина. Я - сертифицированный мастер восковой и сахарной эпиляции.
                 Работаю с удовольствием и приглашаю всех девочек к себе на процедуру красоты. Я
@@ -47,64 +48,19 @@ const About = () => {
                 Я ведь тоже девочка и знаю как должно все произойти, чтобы было удобно и спокойно.
                 Поэтому стараюсь чтобы:
               </p>
-              <div class="about-ft">
-                <p style={{ 'margin': '0px' }}>
-                  <i class="fa fa-long-arrow-right" style={{ 'padding': '0px 10px' }}></i>
-                  обстановка была комфортная
-                </p>
-                <p style={{ 'margin': '0px' }}>
-                  <i class="fa fa-long-arrow-right" style={{ 'padding': '0px 10px' }}></i>
-                  чистота кабинета неоспорима
-                </p>
-                <p style={{ 'margin': '0px' }}>
-                  <i class="fa fa-long-arrow-right" style={{ 'padding': '0px 10px' }}></i>
-                  качество косметики на высшем уровне, а расходники только одноразовые
-                </p>
-                <p style={{ 'margin': '0px' }}>
-                  <i class="fa fa-long-arrow-right" style={{ 'padding': '0px 10px' }}></i>
-                  конфиденциальность гарантирована
-                </p>
-                <p style={{ 'margin': '0px' }}>
-                  <i class="fa fa-long-arrow-right" style={{ 'padding': '0px 10px' }}></i>
-                  для каждого свой подход, ведь мы с вами все разные и индивидуальны
-                </p>
-                <p style={{ 'margin': '0px' }}>
-                  <i class="fa fa-long-arrow-right" style={{ 'padding': '0px 10px' }}></i>
-                  качественно выполнена работа
-                </p>
-                <p style={{ 'margin': '0px' }}>
-                  <i class="fa fa-long-arrow-right" style={{ 'padding': '0px 10px' }}></i>
-                  в приоритете не скорость, а безболезненность. Если для комфорта клиента нужно
-                  работать медленнее, я это сделаю
-                </p>
-                <p style={{ 'margin': '0px' }}>
-                  <i class="fa fa-long-arrow-right" style={{ 'padding': '0px 10px' }}></i>
-                  всегда порекомендую домашний уход именно за Вашей кожей. Необходимая
-                  косметика всегда есть в наличии
-                </p>
-                {/* </div> */}
-                {/* <div class="ft-single">
-                  <div class="icon"><i class="fa fa-desktop"></i></div>
-                  <div class="ft-info">
-                    <h4>Fully Responsive Design.</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do enim ad minim veniam,</p>
-                  </div>
+              {aboutList && (
+                <div className="question-ft">
+                  <ol>
+                    {aboutList.map(item => (
+                      <li key={item.id}>
+                        <p style={{ 'margin': '0px' }}>
+                          {item.text}
+                        </p>
+                      </li>
+                    ))}
+                  </ol>
                 </div>
-                <div class="ft-single">
-                  <div class="icon"><i class="fa fa-android"></i></div>
-                  <div class="ft-info">
-                    <h4>Android Platform.</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do enim ad minim veniam,</p>
-                  </div>
-                </div>
-                <div class="ft-single">
-                  <div class="icon"><i class="fa fa-headphones"></i></div>
-                  <div class="ft-info">
-                    <h4>Strategy Solutions.</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do enim ad minim veniam,</p>
-                  </div>
-                </div> */}
-              </div>
+              )}
             </div>
           </div>
         </div>

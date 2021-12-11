@@ -39,31 +39,31 @@ const Menu = () => {
                       onClick={(e) => setIsChoosenMenu(e.target.name)}
                       class={`${isChoosenMenu === 'home' ? 'active' : ''}`}
                     >
-                      <a name='home' href="#home">Home</a>
+                      <a name='home' href="#home">На верх</a>
                     </li>
                     <li
                       onClick={(e) => setIsChoosenMenu(e.target.name)}
                       class={`${isChoosenMenu === 'about' ? 'active' : ''}`}
                     >
-                      <a name='about' href="#about">About</a>
+                      <a name='about' href="#about">О себе</a>
                     </li>
                     <li
                       onClick={(e) => setIsChoosenMenu(e.target.name)}
                       class={`${isChoosenMenu === 'questions' ? 'active' : ''}`}
                     >
-                      <a name='questions' href="#questions">Questions</a>
+                      <a name='questions' href="#questions">Вопросы и ответы</a>
                     </li>
                     <li
                       onClick={(e) => setIsChoosenMenu(e.target.name)}
                       class={`${isChoosenMenu === 'price' ? 'active' : ''}`}
                     >
-                      <a name='price' href="#pricing">Price</a>
+                      <a name='price' href="#pricing">Цены</a>
                     </li>
                     <li
                       onClick={(e) => setIsChoosenMenu(e.target.name)}
                       class={`${isChoosenMenu === 'contact' ? 'active' : ''}`}
                     >
-                      <a name='contact' href="#contact">Contact</a>
+                      <a name='contact' href="#contact">Контакты</a>
                     </li>
                   </ul>
                 </nav>

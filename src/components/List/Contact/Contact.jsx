@@ -5,15 +5,15 @@ import Title from '../../Title/Title';
 
 const Contact = () => {
   return (
-    <section class="ptb--70" id="contact">
+    <section class="ptb--10" id="contact">
       <div class="section-title text-black">
-        <Title titleName='Contact US' />
+        {/* <Title titleName='Contact US' /> */}
         {/* <h2>Contact US</h2> */}
       </div>
       <div class="contact-flex-container">
         <div class="contact-address">
-          <h4 class="contact-title">Address</h4>
-          {/* <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et </p> */}
+          <h4 class="contact-title">Адрес</h4>
+          <p>5 минут от метро Шулявская </p>
           <ul>
             <li class="h-addres">
               <i class="addres-icon fa fa-home"></i>

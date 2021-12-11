@@ -16,6 +16,7 @@ const Ul = styled.ul`
     position: fixed;
     transform: ${({ open }) => open ? 'translateX(0)' : 'translateX(100%)'};
     top: 0;
+    z-index: 9999;
     right: 0;
     height: 100vh;
     width: 200px;
@@ -30,11 +31,11 @@ const Ul = styled.ul`
 const RightNav = ({ open, setOpen }) => {
   return (
     <Ul open={open}>
-      <li><a onClick={() => setOpen(false)} href="#home">Home</a></li>
-      <li><a onClick={() => setOpen(false)} href="#about">About</a></li>
-      <li><a onClick={() => setOpen(false)} href="#questions">Questions</a></li>
-      <li><a onClick={() => setOpen(false)} href="#pricing">Price</a></li>
-      <li><a onClick={() => setOpen(false)} href="#contact">Contact</a></li>
+      <li><a onClick={() => setOpen(false)} href="#home">На верх</a></li>
+      <li><a onClick={() => setOpen(false)} href="#about">О себе</a></li>
+      <li><a onClick={() => setOpen(false)} href="#questions">Вопросы и ответы</a></li>
+      <li><a onClick={() => setOpen(false)} href="#pricing">Цены</a></li>
+      <li><a onClick={() => setOpen(false)} href="#contact">Контакты</a></li>
     </Ul>
   )
 }
