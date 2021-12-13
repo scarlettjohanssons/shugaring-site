@@ -6,9 +6,8 @@ import Title from '../../Title/Title';
 const Contact = () => {
   return (
     <section class="ptb--10" id="contact">
+      <Title titleName='Contact US' />
       <div class="section-title text-black">
-        {/* <Title titleName='Contact US' /> */}
-        {/* <h2>Contact US</h2> */}
       </div>
       <div class="contact-flex-container">
         <div class="contact-address">

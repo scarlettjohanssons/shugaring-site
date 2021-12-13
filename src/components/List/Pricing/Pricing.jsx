@@ -17,8 +17,8 @@ const Pricing = () => {
     <section class="pricing-area ptb--10" id="pricing">
       {/* bg-theme */}
       <div class="container">
+        <Title titleName='Pricing Plan' />
         <div class="section-title">
-          {/* <Title titleName='Pricing Plan' /> */}
         </div>
         <ul class="responsive-table">
           <li class="table-header">

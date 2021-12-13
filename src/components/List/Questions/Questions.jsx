@@ -40,8 +40,9 @@ const Questions = () => {
   return (
     <section class="letest-blog ptb--10" id="questions">
       <div class="container">
+        <Title titleName='Questions' />
         <div class="section-title text-black">
-          {/* <Title titleName='Questions' /> */}
+          {/* <div class="separator02"></div> */}
         </div>
         <div class="row">
           <Carousel
@@ -65,7 +66,7 @@ const Questions = () => {
                       setWhatRead(e.target.name)
                     }}
                   >
-                    Read More
+                    Читать дальше
                   </a>
                 </div>
               </div>
@@ -87,7 +88,7 @@ const Questions = () => {
                       setWhatRead(e.target.name)
                     }}
                   >
-                    Read More
+                    Читать дальше
                   </a>
                 </div>
               </div>
@@ -116,7 +117,7 @@ const Questions = () => {
                       setWhatRead(e.target.name)
                     }}
                   >
-                    Read More
+                    Читать дальше
                   </a>
                 </div>
               </div>
@@ -138,7 +139,7 @@ const Questions = () => {
                       setWhatRead(e.target.name)
                     }}
                   >
-                    Read More
+                    Читать дальше
                   </a>
                 </div>
               </div>
@@ -166,7 +167,7 @@ const Questions = () => {
                       setWhatRead(e.target.name)
                     }}
                   >
-                    Read More
+                    Читать дальше
                   </a>
                 </div>
               </div>

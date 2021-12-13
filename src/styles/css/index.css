@@ -104,7 +104,7 @@
 }
 
 .bg-theme {
-    background-color: #FA8072;
+    background-color: #900C3F;
 }
 
 .bg-theme-white {
@@ -227,7 +227,7 @@ font-family: 'Open Sans', sans-serif;
 }
 
 .header-area.header_fix {
-    background: #FA8072;
+    background: #900C3F;
     z-index: 9;
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
 }
@@ -271,7 +271,7 @@ font-family: 'Open Sans', sans-serif;
 
 .main-menu nav ul li a:hover,
 .main-menu nav ul li.active a {
-    color: #444;
+    color: rgb(194, 183, 183);
 }
 
 @media (max-width:767px){.hidden-xs{display:none!important}}
@@ -560,7 +560,7 @@ font-family: 'Open Sans', sans-serif;
     text-indent: 0;
     padding: 8px;
     font-size: 14px;
-    border-left: 1px solid #FA8072;
+    border-left: 1px solid #900C3F;
 }
 
 .ft-single {
@@ -779,7 +779,7 @@ font-family: 'Open Sans', sans-serif;
 
 .questions_img {
     padding: 40px 20px;
-    border: 10px solid #FA8072;
+    border: 10px solid #900C3F;
     fill: #fff;
 }
 
@@ -834,7 +834,7 @@ END. Download Area
 }
 .responsive-table .table-header {
     position: relative;
-    background-color: #FA8072;
+    background-color: #900C3F;
     font-size: 20px;
     text-transform: uppercase;
     letter-spacing: 0.03em;
@@ -844,7 +844,7 @@ END. Download Area
     right: 25px;
 }
 .table-open_btn {
-    color: #000;
+    color: #fff;
     text-decoration: none;
 }
 .responsive-table .table-header .col-1 {
@@ -874,6 +874,10 @@ END. Download Area
     display: none;
 }
 
+.table-header .col {
+    color: #fff;
+}
+
 @media all and (max-width: 767px) {
     .mobile-title {
         width: 65px;
@@ -893,10 +897,11 @@ END. Download Area
         top: 20px;
     }
     .table-open_btn {
-        color: #000;
+        color: #fff;
         text-decoration: none;
     }
     .responsive-table .table-header .col-1 {
+        color: #fff;
         display: flex;
     }
     .responsive-table .table-header .col-2 {
@@ -968,14 +973,14 @@ END. Download Area
 }
 
 .pricing-item .btn-area a {
-    border-color: #FA8072;
-    color: #FA8072;
+    border-color: #900C3F;
+    color: #900C3F;
     text-transform: uppercase;
     font-size: 14px;
 }
 
 .pricing-item .btn-area a:hover {
-    background-color: #FA8072;
+    background-color: #900C3F;
     color: #fff;
 }
 
@@ -987,7 +992,7 @@ END. Download Area
     display: block;
     font-size: 15px;
     font-weight: 500;
-    color: #FA8072;
+    color: #900C3F;
     letter-spacing: 0;
     margin-bottom: 3px;
 }
@@ -995,7 +1000,7 @@ END. Download Area
 .prc-head h4 {
     font-size: 36px;
     font-weight: 500;
-    color: #FA8072;
+    color: #900C3F;
     letter-spacing: 0;
 }
 
@@ -1312,13 +1317,13 @@ END Testimonial Area
 .list__item--hidden {
     height: 10px;
     align-self: center;
-    background: linear-gradient(to right, #FA8072, rgba(0, 0, 0, 0.1));
+    background: linear-gradient(to right, #900C3F, rgba(0, 0, 0, 0.1));
 }
 
 .list__item--hidden-right {
     height: 10px;
     align-self: center;
-    background: linear-gradient(to left, #FA8072, rgba(0, 0, 0, 0.1));
+    background: linear-gradient(to left, #900C3F, rgba(0, 0, 0, 0.1));
 }
 
 @media (max-width:767px) {
@@ -1497,7 +1502,7 @@ END Testimonial Area
 .list-item a.read-more {
     width: 130px;
     height: 40px;
-    background: #ff6818;
+    background: #900C3F;
     border-radius: 20px;
     display: block;
     text-align: center;
@@ -1612,7 +1617,7 @@ h4.contact-title {
 .contact-address ul li .addres-icon {
     height: 30px;
     width: 30px;
-    border: 1px solid #FA8072;
+    border: 1px solid #900C3F;
     color: #272727;
     border-radius: 50%;
     text-align: center;
@@ -1679,7 +1684,8 @@ END Contact Area
 }
 
 .footer-inner .fsocial {
-    margin-bottom: 44px;
+    margin: 20px 0 10px 0;
+    /* margin-bottom: 10px; */
 }
 
 .footer-inner .fsocial li {
@@ -1705,6 +1711,7 @@ END Contact Area
 }
 
 .footer-inner p.copy-right {
+    font-size: 10px;
     color: #fff;
     text-align: center;
 }
@@ -2302,3 +2309,78 @@ END Blog Standard
 /*===========================
 END Blog Details
 ===========================*/
+
+.h-divider {
+  margin: auto;
+  margin-top: 80px;
+  width: 80%;
+  position: relative;
+}
+
+.h-divider .shadows {
+  overflow: hidden;
+  height: 20px;
+}
+
+.h-divider .shadows:after {
+  content: '';
+  display: block;
+  margin: -25px auto 0;
+  width: 100%;
+  height: 25px;
+  border-radius: 125px/12px;
+  box-shadow: 0 0 8px #900C3F;
+}
+
+.h-divider .text {
+  width: 100px;
+  height: 45px;
+  padding: 10px;
+  position: absolute;
+  bottom: 100%;
+  margin-bottom: -33px;
+  left: 50%;
+  margin-left: -60px;
+  border-radius: 100%;
+  box-shadow: 0 2px 4px #900C3F;
+  background: white;
+}
+
+.h-divider .text i {
+  position: absolute;
+  top: 4px;
+  bottom: 4px;
+  left: 4px;
+  right: 4px;
+  border-radius: 100%;
+  border: 1px dashed #900C3F;
+  text-align: center;
+  line-height: 50px;
+  font-style: normal;
+  color: #900C3F;
+}
+
+.h-divider .text2 {
+  width: 70px;
+  height: 70px;
+  position: absolute;
+  bottom: 100%;
+  margin-bottom: -35px;
+  left: 50%;
+  margin-left: -25px;
+  border-radius: 100%;
+  box-shadow: 0 2px 4px #900C3F;
+  background: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* .h-divider svg {
+  position: absolute;
+  margin: 4px;
+  max-width: 60px;
+  border-radius: 100%;
+  border: 1px dashed #900C3F;
+} */
+/* FA8072 */

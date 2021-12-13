@@ -7,8 +7,8 @@ const About = () => {
   return (
     <section class="about-area ptb--10" id="about">
       <div class="container">
+          <Title titleName='About' />
         <div class="section-title">
-          {/* <Title titleName='About' /> */}
         </div>
         <div class="about-content">
           <p>
