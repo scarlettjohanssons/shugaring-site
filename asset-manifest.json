@@ -1,17 +1,22 @@
 {
   "files": {
-    "main.css": "/shugaring-site/static/css/main.549e2c92.chunk.css",
-    "main.js": "/shugaring-site/static/js/main.5ec15bf7.chunk.js",
-    "main.js.map": "/shugaring-site/static/js/main.5ec15bf7.chunk.js.map",
+    "main.css": "/shugaring-site/static/css/main.0741d99f.chunk.css",
+    "main.js": "/shugaring-site/static/js/main.4bb11cac.chunk.js",
+    "main.js.map": "/shugaring-site/static/js/main.4bb11cac.chunk.js.map",
     "runtime-main.js": "/shugaring-site/static/js/runtime-main.6313d823.js",
     "runtime-main.js.map": "/shugaring-site/static/js/runtime-main.6313d823.js.map",
     "static/css/2.81b47318.chunk.css": "/shugaring-site/static/css/2.81b47318.chunk.css",
-    "static/js/2.051414e3.chunk.js": "/shugaring-site/static/js/2.051414e3.chunk.js",
-    "static/js/2.051414e3.chunk.js.map": "/shugaring-site/static/js/2.051414e3.chunk.js.map",
+    "static/js/2.3784a9da.chunk.js": "/shugaring-site/static/js/2.3784a9da.chunk.js",
+    "static/js/2.3784a9da.chunk.js.map": "/shugaring-site/static/js/2.3784a9da.chunk.js.map",
     "index.html": "/shugaring-site/index.html",
     "static/css/2.81b47318.chunk.css.map": "/shugaring-site/static/css/2.81b47318.chunk.css.map",
-    "static/css/main.549e2c92.chunk.css.map": "/shugaring-site/static/css/main.549e2c92.chunk.css.map",
-    "static/js/2.051414e3.chunk.js.LICENSE.txt": "/shugaring-site/static/js/2.051414e3.chunk.js.LICENSE.txt",
+    "static/css/main.0741d99f.chunk.css.map": "/shugaring-site/static/css/main.0741d99f.chunk.css.map",
+    "static/js/2.3784a9da.chunk.js.LICENSE.txt": "/shugaring-site/static/js/2.3784a9da.chunk.js.LICENSE.txt",
+    "static/media/1532531.76adb16f.svg": "/shugaring-site/static/media/1532531.76adb16f.svg",
+    "static/media/159749.52f8920a.svg": "/shugaring-site/static/media/159749.52f8920a.svg",
+    "static/media/2027567.06b1c660.svg": "/shugaring-site/static/media/2027567.06b1c660.svg",
+    "static/media/341373.8dc38fb6.svg": "/shugaring-site/static/media/341373.8dc38fb6.svg",
+    "static/media/582462.db02565b.svg": "/shugaring-site/static/media/582462.db02565b.svg",
     "static/media/index.css": "/shugaring-site/static/media/teen.c1d9e2a8.jpg",
     "static/media/face.f854585f.jpg": "/shugaring-site/static/media/face.f854585f.jpg",
     "static/media/font-awesome.min.css": "/shugaring-site/static/media/fontawesome-webfont.f691f37e.woff",
@@ -24,8 +29,8 @@
   "entrypoints": [
     "static/js/runtime-main.6313d823.js",
     "static/css/2.81b47318.chunk.css",
-    "static/js/2.051414e3.chunk.js",
-    "static/css/main.549e2c92.chunk.css",
-    "static/js/main.5ec15bf7.chunk.js"
+    "static/js/2.3784a9da.chunk.js",
+    "static/css/main.0741d99f.chunk.css",
+    "static/js/main.4bb11cac.chunk.js"
   ]
 }
