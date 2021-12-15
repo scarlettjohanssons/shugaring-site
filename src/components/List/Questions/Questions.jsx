@@ -5,6 +5,7 @@ import Image2 from '../../../styles/images/hair-bad2.jpg';
 import Image7 from '../../../styles/images/pregnance2.jpg';
 import Image8 from '../../../styles/images/teen.jpg';
 import Image9 from '../../../styles/images/after-shugaring.jpg';
+import Image10 from '../../../styles/images/contraindications.jpg';
 import Image3 from '../../../styles/images/photo3.svg';
 import Image4 from '../../../styles/images/photo2.svg';
 import Image5 from '../../../styles/images/photo1.svg';
@@ -171,17 +172,29 @@ const Questions = () => {
                   </a>
                 </div>
               </div>
-
-              {/* <div class="list__item list__item--hidden-right"></div> */}
-
-              {/* <div className='list__item questions_content questions_content--right'>
-                <img className='questions_img' src={Image6} alt="image description" />
-              </div> */}
             </div>
 
-
-
-
+            <div className='blog-list__item'>
+              <div class="list__item item-block">
+                <div class="list-item">
+                  <div class="blog-thumbnail6">
+                  </div>
+                  <img className='disabled' src={Image10} alt="blog thumbnail" />
+                  <h4 class="blog-title">{questionsText.text6.title}</h4>
+                  <div class="blog-summery">
+                  </div>
+                  <a
+                    class="read-more"
+                    name='text6'
+                    onClick={(e) => {
+                      setWhatRead(e.target.name)
+                    }}
+                  >
+                    Читать дальше
+                  </a>
+                </div>
+              </div>
+            </div>
 
           </Carousel>
           <div>
@@ -204,8 +217,12 @@ const Questions = () => {
                         </ol>
                       </div>
                     )}
-                    {question.body && (
-                      <p>{question.body2}</p>
+                    {question.body2 && (
+                      <>
+                        <p>{question.body2}</p>
+                        <p>{question.body3}</p>
+                        <p>{question.body4}</p>
+                      </>
                     )}
                   </div>
                 )

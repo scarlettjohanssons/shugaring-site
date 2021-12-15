@@ -26,7 +26,13 @@ const Menu = () => {
             <div class="col-md-3 col-sm-6 col-xs-6">
               <div class="logo">
                 <a href="index.html">
-                  <img src={Icon} alt='' />
+                  <p>
+                    Студия
+                  </p>
+                  <p>
+                    гладкой кожи
+                  </p>
+                  {/* <img src={Icon} alt='' /> */}
                 </a>
               </div>
             </div>

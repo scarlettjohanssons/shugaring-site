@@ -167,6 +167,10 @@ font-family: 'Open Sans', sans-serif;
   2.1 Header Area
   ===========================*/
 
+.top-img {
+    position: relative;
+}
+
 .title-container {
     /* margin: 1em 0 0.5em 0; */
     width: 450px;
@@ -237,15 +241,21 @@ font-family: 'Open Sans', sans-serif;
 }
 
 .logo {
-    margin-top: 27px;
+    margin-top: 20px;
 }
 
 .logo a {
     display: inline-block;
+    text-decoration: none;
 }
 
-.logo a img {
-    max-width: 195px;
+.logo a p {
+    font-family: 'AdineKirnbergRegular', sans-serif;
+    font-size: 60px;
+    color: #fff;
+    margin: 0;
+    text-indent: 0;
+    min-width: 300px;
 }
 
 .main-menu {
@@ -354,6 +364,7 @@ font-family: 'Open Sans', sans-serif;
 }
 
 .slider-content {
+    margin-top: 150px;
     position: relative;
     z-index: 2;
 }
@@ -404,7 +415,9 @@ font-family: 'Open Sans', sans-serif;
     color: #444;
 }
 
-.slider-m-img {}
+.slider-m-img {
+    opacity: 0.2;
+}
 
 .slider-m-img img {
     max-width: 268px;
@@ -443,7 +456,8 @@ font-family: 'Open Sans', sans-serif;
 ===========================*/
 
 .background-image {
-    background: url(../images/head.jpg) center center/cover no-repeat;
+    /* background: url(../images/head.jpg) center center/cover no-repeat; */
+    background: #F1DDE6;
     position: relative;
 }
 
@@ -1392,6 +1406,15 @@ END Testimonial Area
     margin-bottom: 15px;
     position: relative;
     background-image: url(../images/after-shugaring.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 500px;
+}
+.blog-thumbnail6 {
+    margin-bottom: 15px;
+    position: relative;
+    background-image: url(../images/contraindications.jpg);
     background-size: cover;
     background-position: center;
     width: 100%;
