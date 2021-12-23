@@ -1,7 +1,6 @@
 import React, { Suspense } from 'react';
 import Favicon from 'react-favicon';
 
-import '../../styles/css/App.css';
 import Header from '../Header/Header';
 import Menu from '../Menu/Menu';
 import About from '../List/About/About';
@@ -21,7 +20,6 @@ function App() {
       <Pricing />
       <Contact />
       <Footer />
-      {/* <Home /> */}
     </div>
   );
 }

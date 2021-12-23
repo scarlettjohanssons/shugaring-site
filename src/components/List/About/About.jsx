@@ -8,8 +8,6 @@ const About = () => {
     <section class="about-area ptb--10" id="about">
       <div class="container">
         <Title titleName='About' />
-        <div class="section-title">
-        </div>
         <div class="about-content">
           <p>
             Иметь гладкую шелковистую кожу – это неотъемлимое желание любой представительницы слабого пола.

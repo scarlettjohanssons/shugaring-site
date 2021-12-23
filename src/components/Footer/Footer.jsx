@@ -7,10 +7,9 @@ const Footer = () => {
         <div class="container">
           <div class="footer-inner">
             <ul class="fsocial">
-              <li><a href="https://uk-ua.facebook.com/" target="_blank"><i class="fa fa-facebook"></i></a></li>
+              <li><a href="https://www.facebook.com/katrinshugar/" target="_blank"><i class="fa fa-facebook"></i></a></li>
               <li><a href="https://t.me/KatrinKukobko" target="_blank"><i class="fa fa-telegram"></i></a></li>
-              <li><a href="https://www.instagram.com/?hl=ru" target="_blank"><i class="fa fa-instagram"></i></a></li>
-              {/* <li><a href="https://ru.linkedin.com/" target="_blank"><i class="fa fa-linkedin"></i></a></li> */}
+              <li><a href="https://www.instagram.com/ekaterinakukobko/" target="_blank"><i class="fa fa-instagram"></i></a></li>
             </ul>
             <p class="copy-right">
               {`Copyright © ${(new Date().getFullYear())} | All rights reserved | This template is made by`} <a href="https://github.com/scarlettjohanssons" target="_blank">Illia</a>

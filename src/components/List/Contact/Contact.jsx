@@ -1,14 +1,10 @@
 import React from 'react';
-import googlePlaces from 'google-maps-reviews';
-import { Icon } from '@iconify/react';
 import Title from '../../Title/Title';
 
 const Contact = () => {
   return (
     <section class="ptb--10" id="contact">
       <Title titleName='Contact US' />
-      <div class="section-title text-black">
-      </div>
       <div class="contact-flex-container">
         <div class="contact-address">
           <h4 class="contact-title">Адрес</h4>
@@ -22,7 +18,7 @@ const Contact = () => {
               <i class="addres-icon fa fa-phone"></i>
               <a href="tel:+380973909127">+38 097 390 9127</a>
               <a style={{ 'marginLeft': '10px' }} href="https://t.me/KatrinKukobko" target="_blank"><i class="fa fa-telegram"></i></a>
-              {/* <a style={{ 'marginLeft': '10px' }} href="https://t.me/KatrinKukobko" target="_blank"><Icon icon="fa-brands:viber" /></a> */}
+              <a style={{ 'marginLeft': '10px' }} href="https://t.me/KatrinKukobko" target="_blank"><i class="fab fa-viber"></i></a>
             </li>
             <li>
               <i class="addres-icon fa fa-envelope"></i>
@@ -39,17 +35,6 @@ const Contact = () => {
           >
           </iframe>
         </div>
-        {/* <div class="contact-form">
-          <h4 class="contact-title">Get In Touch</h4>
-          <form action="#">
-                  <input type="text" class="input" name="name" placeholder="Your Name *">
-                  <input type="email" class="input" name="email" placeholder="Your Email address*">
-                  <input type="text" class="input" name="subject" placeholder="Your Subject*">
-                  <input type="text" class="input" name="name" placeholder="Your Message*">
-                  <textarea name="msg" class="input" id="msg" placeholder="Your Message*"></textarea>
-                  <input type="submit" id="send" value="Send">
-              </form>
-        </div> */}
       </div>
     </section>
   );

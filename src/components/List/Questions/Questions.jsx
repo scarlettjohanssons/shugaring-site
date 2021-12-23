@@ -6,17 +6,12 @@ import Image7 from '../../../styles/images/pregnance2.jpg';
 import Image8 from '../../../styles/images/teen.jpg';
 import Image9 from '../../../styles/images/after-shugaring.jpg';
 import Image10 from '../../../styles/images/contraindications.jpg';
-import Image3 from '../../../styles/images/photo3.svg';
-import Image4 from '../../../styles/images/photo2.svg';
-import Image5 from '../../../styles/images/photo1.svg';
-import Image6 from '../../../styles/images/photo5.svg';
 import { questionsText, questionsText1 } from '../../../helper/questionsTextConfig';
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 
 const responsive = {
   superLargeDesktop: {
-    // the naming can be any, depends on you.
     breakpoint: { max: 4000, min: 3000 },
     items: 5
   },
@@ -42,14 +37,12 @@ const Questions = () => {
     <section class="letest-blog ptb--10" id="questions">
       <div class="container">
         <Title titleName='Questions' />
-        <div class="section-title text-black">
-          {/* <div class="separator02"></div> */}
-        </div>
         <div class="row">
           <Carousel
             swipeable={false}
             responsive={responsive}
             infinite={true}
+            containerClass='pd_null'
           >
             <div className='blog-list__item'>
               <div class='list__item item-block'>
@@ -58,8 +51,6 @@ const Questions = () => {
                   </div>
                   <img className='disabled' src={Image1} alt="blog thumbnail" />
                   <h4 class="blog-title">{questionsText.text1.title}</h4>
-                  <div class="blog-summery">
-                  </div>
                   <a
                     class="read-more"
                     name='text1'
@@ -80,8 +71,6 @@ const Questions = () => {
                   </div>
                   <img className='disabled' src={Image8} alt="blog thumbnail" />
                   <h4 class="blog-title">{questionsText.text2.title}</h4>
-                  <div class="blog-summery">
-                  </div>
                   <a
                     class="read-more"
                     name='text2'
@@ -93,24 +82,15 @@ const Questions = () => {
                   </a>
                 </div>
               </div>
-
-              {/* <div class="list__item list__item--hidden-right"></div> */}
-
-              {/* <div className='list__item questions_content questions_content--right'>
-                <img className='questions_img' src={Image4} alt="image description" />
-              </div> */}
             </div>
 
             <div className='blog-list__item'>
-
               <div class="list__item item-block">
                 <div class="list-item">
                   <div class="blog-thumbnail3">
                   </div>
                   <img className='disabled' src={Image7} alt="blog thumbnail" />
                   <h4 class="blog-title">{questionsText.text3.title}</h4>
-                  <div class="blog-summery">
-                  </div>
                   <a
                     class="read-more"
                     name='text3'
@@ -131,8 +111,6 @@ const Questions = () => {
                   </div>
                   <img className='disabled' src={Image2} alt="blog thumbnail" />
                   <h4 class="blog-title">{questionsText.text4.title}</h4>
-                  <div class="blog-summery">
-                  </div>
                   <a
                     class="read-more"
                     name='text4'
@@ -144,12 +122,6 @@ const Questions = () => {
                   </a>
                 </div>
               </div>
-
-              {/* <div class="list__item list__item--hidden-right"></div> */}
-
-              {/* <div className='list__item questions_content questions_content--right'>
-                <img className='questions_img' src={Image6} alt="image description" />
-              </div> */}
             </div>
 
             <div className='blog-list__item'>
@@ -159,8 +131,6 @@ const Questions = () => {
                   </div>
                   <img className='disabled' src={Image9} alt="blog thumbnail" />
                   <h4 class="blog-title">{questionsText.text5.title}</h4>
-                  <div class="blog-summery">
-                  </div>
                   <a
                     class="read-more"
                     name='text5'
@@ -181,8 +151,6 @@ const Questions = () => {
                   </div>
                   <img className='disabled' src={Image10} alt="blog thumbnail" />
                   <h4 class="blog-title">{questionsText.text6.title}</h4>
-                  <div class="blog-summery">
-                  </div>
                   <a
                     class="read-more"
                     name='text6'

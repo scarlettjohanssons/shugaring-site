@@ -3,14 +3,10 @@ import React from 'react';
 const Title = ({ titleName }) => {
   return (
     <>
-      {/* <div class="title-container">
-            <h2 className='title-container__name'>{titleName}</h2>
-          </div> */}
       <div class="h-divider">
         <div class="shadows"></div>
         <div class="text2">
-          {/* <img src="https://t1.gstatic.com/images?q=tbn:ANd9GcQsmMfybMIwoE5etmOIAuvnFWdfv_8C1Bq15urJFqwhhI55FyYNP2YuUA" /> */}
-          <svg xmlns="http://www.w3.org/2000/svg" version="1.0" width="1280.000000pt" height="1280.000000pt" viewBox="0 0 1280.000000 1280.000000" preserveAspectRatio="xMidYMid meet">
+          <svg xmlns="http://www.w3.org/2000/svg" version="1.0" viewBox="0 0 1280.000000 1280.000000" preserveAspectRatio="xMidYMid meet">
             <g transform="translate(0.000000,1280.000000) scale(0.100000,-0.100000)" fill="#900C3F" stroke="none">
               <path d="M2255 11933 c6 -6 27 -16 48 -23 20 -6 37 -15 37 -19 0 -4 -22 -13 -50 -20 -27 -7 -50 -17 -50 -21 0 -5 60 -7 133 -5 72 2 139 4 148 5 10 0 19 11 21 25 4 20 0 26 -26 34 -17 5 -67 12 -111 15 -44 3 -98 9 -120 12 -27 4 -37 3 -30 -3z" />
               <path d="M4117 11754 c-4 -4 -7 -38 -7 -74 0 -88 -8 -124 -32 -150 -35 -38 -9 -35 29 3 l37 36 -3 82 c-2 81 -10 116 -24 103z" />

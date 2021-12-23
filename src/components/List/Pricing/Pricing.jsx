@@ -15,11 +15,8 @@ const Pricing = () => {
 
   return (
     <section class="pricing-area ptb--10" id="pricing">
-      {/* bg-theme */}
       <div class="container">
         <Title titleName='Pricing Plan' />
-        <div class="section-title">
-        </div>
         <ul class="responsive-table">
           <li class="table-header">
             <div class="col col-1">Прайс</div>
@@ -45,7 +42,6 @@ const Pricing = () => {
               </a>
             </div>
           </li>
-          {/* {isOpenMean && */}
           <div className='wrapper' ref={ref}>
             {priceList.map(item => {
               return (
@@ -56,7 +52,6 @@ const Pricing = () => {
               )
             })}
           </div>
-          {/* } */}
         </ul>
         <div className='price-content'>
           <p>
@@ -75,7 +70,6 @@ const Pricing = () => {
               </ol>
             </div>
           )}
-
           <p>
             Мы живем здесь и сейчас. Так зачем лишать себя этих приятных моментов , которые мы спокойно можем себе позволить?
           </p>
