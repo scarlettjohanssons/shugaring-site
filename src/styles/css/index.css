@@ -231,6 +231,9 @@ textarea {
     z-index: 2;
 }
 
+@media (min-width:768px) and (max-width:995px){.slider-content{margin-top: 80px;}}
+@media (max-width:767px){.slider-content{margin-top: 50px;}}
+
 .slider-content h1 {
     font-size: 40px;
     color: #E199B9;
