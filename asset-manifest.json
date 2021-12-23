@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/shugaring-site/static/css/main.a272a2a4.chunk.css",
+    "main.css": "/shugaring-site/static/css/main.74622697.chunk.css",
     "main.js": "/shugaring-site/static/js/main.ae175392.chunk.js",
     "main.js.map": "/shugaring-site/static/js/main.ae175392.chunk.js.map",
     "runtime-main.js": "/shugaring-site/static/js/runtime-main.6313d823.js",
@@ -10,7 +10,7 @@
     "static/js/2.e8e52fec.chunk.js.map": "/shugaring-site/static/js/2.e8e52fec.chunk.js.map",
     "index.html": "/shugaring-site/index.html",
     "static/css/2.81b47318.chunk.css.map": "/shugaring-site/static/css/2.81b47318.chunk.css.map",
-    "static/css/main.a272a2a4.chunk.css.map": "/shugaring-site/static/css/main.a272a2a4.chunk.css.map",
+    "static/css/main.74622697.chunk.css.map": "/shugaring-site/static/css/main.74622697.chunk.css.map",
     "static/js/2.e8e52fec.chunk.js.LICENSE.txt": "/shugaring-site/static/js/2.e8e52fec.chunk.js.LICENSE.txt",
     "static/media/159749.52f8920a.svg": "/shugaring-site/static/media/159749.52f8920a.svg",
     "static/media/582462.db02565b.svg": "/shugaring-site/static/media/582462.db02565b.svg",
@@ -23,7 +23,7 @@
     "static/js/runtime-main.6313d823.js",
     "static/css/2.81b47318.chunk.css",
     "static/js/2.e8e52fec.chunk.js",
-    "static/css/main.a272a2a4.chunk.css",
+    "static/css/main.74622697.chunk.css",
     "static/js/main.ae175392.chunk.js"
   ]
 }
