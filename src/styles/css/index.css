@@ -1106,6 +1106,12 @@ END Blog Standard
     text-decoration: none;
 }
 
+@media (max-height:400px) {
+    .nav_mobile-menu ul li a {
+        padding: 10px 20px;
+    }
+}
+
 .nav_mobile-menu nav ul li a:hover,
 .nav_mobile-menu nav ul li.active a {
     color: #444;

@@ -43,6 +43,7 @@ const Questions = () => {
             responsive={responsive}
             infinite={true}
             containerClass='pd_null'
+            swipeable={true}
           >
             <div className='blog-list__item'>
               <div class='list__item item-block'>

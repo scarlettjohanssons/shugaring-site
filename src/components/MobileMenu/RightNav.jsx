@@ -5,6 +5,7 @@ const Ul = styled.ul`
   list-style: none;
   display: none;
   flex-flow: row nowrap;
+  position: relative;
   li {
     ${'' /* padding: 18px 10px; */}
   }
@@ -26,6 +27,9 @@ const Ul = styled.ul`
       color: #fff;
     }
   }
+  @media (max-height:500px) {
+    padding-top: 3.5rem;
+  }
 `;
 
 const RightNav = ({ open, setOpen }) => {
@@ -36,6 +40,7 @@ const RightNav = ({ open, setOpen }) => {
       <li><a onClick={() => setOpen(false)} href="#questions">Вопросы и ответы</a></li>
       <li><a onClick={() => setOpen(false)} href="#pricing">Цены</a></li>
       <li><a onClick={() => setOpen(false)} href="#contact">Контакты</a></li>
+      <li style={{'position': 'absolute', 'bottom': '20px'}}><a href="tel:+380973909127">+38 097 390 9127</a></li>
     </Ul>
   )
 }

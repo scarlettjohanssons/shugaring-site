@@ -44,7 +44,7 @@ export const priceList = [
   {
     id: 8,
     service: 'Бедра',
-    price: 200,
+    price: 250,
     priority: 'mean',
   },
   {
@@ -62,7 +62,7 @@ export const priceList = [
   {
     id: 11,
     service: 'Подмышки',
-    price: 120,
+    price: 130,
     priority: 'mean',
   },
   {
@@ -104,7 +104,7 @@ export const priceList = [
   {
     id: 18,
     service: 'Лицо полностью',
-    price: 200,
+    price: 250,
     priority: 'mean',
   },
   {
@@ -143,6 +143,12 @@ export const priceList = [
     service: 'SOSмаска отбеливающая и Противовоспалительная',
     price: 100,
     priority: 'additionally',
+  },
+  {
+    id: 25,
+    service: 'Лобок',
+    price: 150,
+    priority: 'mean',
   },
 ];
 
