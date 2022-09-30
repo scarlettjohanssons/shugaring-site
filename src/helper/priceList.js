@@ -150,6 +150,12 @@ export const priceList = [
     price: 100,
     priority: 'additionally',
   },
+  {
+    id: 26,
+    service: 'Крем знеболювальний',
+    price: 100,
+    priority: 'additionally',
+  },
 ];
 
 export const listUnderPrice = [
