@@ -35,11 +35,11 @@ const Ul = styled.ul`
 const RightNav = ({ open, setOpen }) => {
   return (
     <Ul open={open}>
-      <li><a onClick={() => setOpen(false)} href="#home">На верх</a></li>
-      <li><a onClick={() => setOpen(false)} href="#about">О себе</a></li>
-      <li><a onClick={() => setOpen(false)} href="#questions">Вопросы и ответы</a></li>
-      <li><a onClick={() => setOpen(false)} href="#pricing">Цены</a></li>
-      <li><a onClick={() => setOpen(false)} href="#contact">Контакты</a></li>
+      <li><a onClick={() => setOpen(false)} href="#home">В гору</a></li>
+      <li><a onClick={() => setOpen(false)} href="#about">Про себе</a></li>
+      <li><a onClick={() => setOpen(false)} href="#questions">Питання та відповіді</a></li>
+      <li><a onClick={() => setOpen(false)} href="#pricing">Ціни</a></li>
+      <li><a onClick={() => setOpen(false)} href="#contact">Контакти</a></li>
       <li style={{'position': 'absolute', 'bottom': '20px'}}><a href="tel:+380973909127">+38 097 390 9127</a></li>
     </Ul>
   )

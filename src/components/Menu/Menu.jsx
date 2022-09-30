@@ -23,10 +23,10 @@ const Menu = () => {
               <div class="logo">
                 <a href="index.html">
                   <p>
-                    Студия
+                    Студія
                   </p>
                   <p>
-                    гладкой кожи
+                    гладенької шкіри
                   </p>
                 </a>
               </div>
@@ -40,31 +40,31 @@ const Menu = () => {
                       onClick={(e) => setIsChoosenMenu(e.target.name)}
                       class={`${isChoosenMenu === 'home' ? 'active' : ''}`}
                     >
-                      <a name='home' href="#home">На верх</a>
+                      <a name='home' href="#home">В гору</a>
                     </li>
                     <li
                       onClick={(e) => setIsChoosenMenu(e.target.name)}
                       class={`${isChoosenMenu === 'about' ? 'active' : ''}`}
                     >
-                      <a name='about' href="#about">О себе</a>
+                      <a name='about' href="#about">Про себе</a>
                     </li>
                     <li
                       onClick={(e) => setIsChoosenMenu(e.target.name)}
                       class={`${isChoosenMenu === 'questions' ? 'active' : ''}`}
                     >
-                      <a name='questions' href="#questions">Вопросы и ответы</a>
+                      <a name='questions' href="#questions">Питання та відповіді</a>
                     </li>
                     <li
                       onClick={(e) => setIsChoosenMenu(e.target.name)}
                       class={`${isChoosenMenu === 'price' ? 'active' : ''}`}
                     >
-                      <a name='price' href="#pricing">Цены</a>
+                      <a name='price' href="#pricing">Ціни</a>
                     </li>
                     <li
                       onClick={(e) => setIsChoosenMenu(e.target.name)}
                       class={`${isChoosenMenu === 'contact' ? 'active' : ''}`}
                     >
-                      <a name='contact' href="#contact">Контакты</a>
+                      <a name='contact' href="#contact">Контакти</a>
                     </li>
                   </ul>
                 </nav>

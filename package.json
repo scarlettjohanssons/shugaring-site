@@ -1,5 +1,5 @@
 {
-  "homepage": "http://scarlettjohanssons.github.io/shugaring-site",
+  "homepage": "http://epilstudio.com.ua",
   "name": "shugaring",
   "version": "0.1.0",
   "private": true,
@@ -23,6 +23,7 @@
     "react-multi-carousel": "^2.6.5",
     "react-scripts": "4.0.3",
     "react-slick": "^0.28.1",
+    "serve": "^13.0.2",
     "slick-carousel": "^1.8.1",
     "styled-components": "^5.3.3",
     "web-vitals": "^1.1.2"

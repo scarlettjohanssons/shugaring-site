@@ -7,18 +7,18 @@ const Contact = () => {
       <Title titleName='Contact US' />
       <div className="contact-flex-container">
         <div className="contact-address">
-          <h4 className="contact-title">Адрес</h4>
-          <p>5 минут от метро Шулявская </p>
+          <h4 className="contact-title">Адреса</h4>
+          <p>5 хвилин від метро Шулявська </p>
           <ul>
             <li className="h-addres">
               <i className="addres-icon fa fa-home"></i>
-              <a href='https://goo.gl/maps/ZXwZms5ZQYMrTNwL8' target="_blank">Киев, ул. Металлистов 9</a>
+              <a href='https://goo.gl/maps/ZXwZms5ZQYMrTNwL8' target="_blank" rel="noreferrer">Київ, вул. Металістів 9</a>
             </li>
             <li>
               <i className="addres-icon fa fa-phone"></i>
               <a href="tel:+380973909127">+38 097 390 9127</a>
-              <a style={{ 'marginLeft': '10px' }} href="https://t.me/KatrinKukobko" target="_blank"><i className="fa fa-telegram"></i></a>
-              <a style={{ 'marginLeft': '10px' }} href="https://t.me/KatrinKukobko" target="_blank"><i className="fab fa-viber"></i></a>
+              <a style={{ 'marginLeft': '10px' }} href="https://t.me/KatrinKukobko" target="_blank" rel="noreferrer"><i className="fa fa-telegram"></i></a>
+              <a style={{ 'marginLeft': '10px' }} href="https://t.me/KatrinKukobko" target="_blank" rel="noreferrer"><i className="fab fa-viber"></i></a>
             </li>
             <li>
               <i className="addres-icon fa fa-envelope"></i>
