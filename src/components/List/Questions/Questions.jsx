@@ -58,7 +58,7 @@ const Questions = () => {
                       setWhatRead(e.target.name)
                     }}
                   >
-                    Читать дальше
+                    Читати далі
                   </a>
                 </div>
               </div>
@@ -78,7 +78,7 @@ const Questions = () => {
                       setWhatRead(e.target.name)
                     }}
                   >
-                    Читать дальше
+                    Читати далі
                   </a>
                 </div>
               </div>
@@ -98,7 +98,7 @@ const Questions = () => {
                       setWhatRead(e.target.name)
                     }}
                   >
-                    Читать дальше
+                    Читати далі
                   </a>
                 </div>
               </div>
@@ -118,7 +118,7 @@ const Questions = () => {
                       setWhatRead(e.target.name)
                     }}
                   >
-                    Читать дальше
+                    Читати далі
                   </a>
                 </div>
               </div>
@@ -138,7 +138,7 @@ const Questions = () => {
                       setWhatRead(e.target.name)
                     }}
                   >
-                    Читать дальше
+                    Читати далі
                   </a>
                 </div>
               </div>
@@ -158,7 +158,7 @@ const Questions = () => {
                       setWhatRead(e.target.name)
                     }}
                   >
-                    Читать дальше
+                    Читати далі
                   </a>
                 </div>
               </div>

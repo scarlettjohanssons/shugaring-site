@@ -235,14 +235,6 @@ textarea {
 @media (max-width:767px){.slider-content{margin-top: 50px;}}
 
 .slider-content h1 {
-    font-size: 40px;
-    color: #E199B9;
-    line-height: 73px;
-    letter-spacing: 0;
-    font-weight: 400;
-    margin-bottom: 40px;
-}
-.slider-content h2 {
     font-family: 'AdineKirnbergRegular', sans-serif;
     font-size: 180px;
     color: #8E506C;
@@ -250,6 +242,14 @@ textarea {
     letter-spacing: 0;
     font-weight: 400;
     margin-bottom: 60px;
+}
+.slider-content h2 {
+    font-size: 40px;
+    color: #E199B9;
+    line-height: 73px;
+    letter-spacing: 0;
+    font-weight: 400;
+    margin-bottom: 40px;
 }
 
 .slider-content p {
