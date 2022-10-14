@@ -11,12 +11,12 @@
 	/*-----------------------
 		Home One
 	-----------------------*/
-	.slider-content h2 {
+	.slider-content h1 {
 		font-size: 120px;
 		line-height: 70px;
 		margin-bottom: 20px;
 	}
-	.slider-content h1 {
+	.slider-content h2 {
 		font-size: 30px;
 	}
 	.slider-area {
@@ -53,12 +53,12 @@
 	/*-----------------------
 		Home One
 	-----------------------*/
-	.slider-content h2 {
+	.slider-content h1 {
 		font-size: 110px;
 		line-height: 65px;
 		margin-bottom: 10px;
 	}
-	.slider-content h1 {
+	.slider-content h2 {
 		font-size: 25px;
 	}
 	.slider-area {
@@ -204,12 +204,12 @@
 	/*-----------------------
 		Home One
 	-----------------------*/
-	.slider-content h2 {
+	.slider-content h1 {
 		font-size: 90px;
 		line-height: 58px;
 		margin-bottom: 10px;
 	}
-	.slider-content h1 {
+	.slider-content h2 {
 		font-size: 20px;
 		/* line-height: 54px; */
 	}
@@ -333,12 +333,12 @@
 	/*-----------------------
 		Home One
 	-----------------------*/
-	.slider-content h2 {
+	.slider-content h1 {
 		font-size: 100px;
 		line-height: 50px;
 		margin-bottom: 5px;
 	}
-	.slider-content h1 {
+	.slider-content h2 {
 		font-size: 15px;
 	}
 	.slider-content p {
