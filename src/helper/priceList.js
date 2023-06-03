@@ -2,43 +2,43 @@ export const priceList = [
   {
     id: 1,
     service: 'Ніжки до/вище колін (+пальчики)',
-    price: 300,
+    price: 350,
     priority: 'mean',
   },
   {
     id: 2,
     service: 'Ніжки повністю (+пальчики)',
-    price: 450,
+    price: 500,
     priority: 'mean',
   },
   {
     id: 3,
     service: 'Руки до ліктя',
-    price: 200,
+    price: 250,
     priority: 'mean',
   },
   {
     id: 4,
     service: 'Руки повністю',
-    price: 300,
+    price: 350,
     priority: 'mean',
   },
   {
     id: 5,
     service: 'Бікіні класичне (+доріжка)',
-    price: 280,
+    price: 300,
     priority: 'mean',
   },
   {
     id: 6,
     service: 'Бікіні глибоке (+доріжка)',
-    price: 400,
+    price: 450,
     priority: 'mean',
   },
   {
     id: 25,
     service: 'Лобок',
-    price: 150,
+    price: 200,
     priority: 'mean',
   },
   {
@@ -62,13 +62,13 @@ export const priceList = [
   {
     id: 10,
     service: 'Поясничка',
-    price: 150,
+    price: 200,
     priority: 'mean',
   },
   {
     id: 11,
     service: 'Пахви',
-    price: 150,
+    price: 180,
     priority: 'mean',
   },
   {
@@ -110,13 +110,13 @@ export const priceList = [
   {
     id: 18,
     service: 'Обличчя повністю',
-    price: 250,
+    price: 300,
     priority: 'mean',
   },
   {
     id: 19,
     service: 'Спина',
-    price: 250,
+    price: 300,
     priority: 'mean',
   },
   {
@@ -134,26 +134,33 @@ export const priceList = [
   {
     id: 22,
     service: 'Лікування врослого волосся',
-    include: ['Зона бикини', 'кислотный или энзимный пилинг', 'механическая чистка', 'SOSмаска'],
-    price: 350,
+    include: ['Зона бікіні', 'кислотний або ензимний пілінг', 'механічна чистка', 'SOS маска'],
+    price: 400,
+    priority: 'additionally',
+  },
+  {
+    id: 27,
+    service: 'SPA для бікіні',
+    include: ['епіляція бікіні', 'чистка віж врослого волосся', 'альгінатна маска', 'Зволоження живлення'],
+    price: 750,
     priority: 'additionally',
   },
   {
     id: 23,
     service: 'Скраб/ензими перед епіляцією',
-    price: 80,
+    price: 120,
     priority: 'additionally',
   },
   {
     id: 24,
     service: 'SOS маска відбілююча і протизапальна',
-    price: 100,
+    price: 150,
     priority: 'additionally',
   },
   {
     id: 26,
     service: 'Крем знеболювальний',
-    price: 100,
+    price: 120,
     priority: 'additionally',
   },
 ];
