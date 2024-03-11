@@ -5,7 +5,7 @@ const Home = lazy(() => import('../components/Home'));
 const routes = {
   Home: {
     path: `/`,
-    component: newHome,
+    component: Home,
   },
 }
 
